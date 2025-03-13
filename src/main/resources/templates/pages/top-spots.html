@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Top Spots - Buy N Sell Thai</title>
+</head>
+<body>
+    <header th:replace="~{fragments/header :: header}"></header>
+    <main class="content">
+        <div>
+            <h1>Top Spots</h1>
+            <p>Discover & Support Local Gems with Top Spots</p>
+            <p>Dive into authentic reviews of places across Thailand, from hidden eateries to charming boutiques. Explore genuine insights from locals and travelers alike, while helping spotlight small businesses that deserve the love.</p>
+        </div>
+        <div class="d-flex flex-wrap justify-content-start">
+            <div class="card m-2" style="width: 18rem;">
+                <img src="images/bns-kaorio.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">KAORIO X BUYNSELL</h5>
+                    <a href="#" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+            <div class="card m-2" style="width: 18rem;">
+                <img src="images/pexels-cosmetic.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">PEXELS COSMETIC</h5>
+                    <a href="#" class="btn btn-primary">Visit</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+</body>
+</html>

@@ -1,0 +1,236 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Support - Buy N Sell Thai</title>
+</head>
+<body>
+    <header th:replace="~{fragments/header :: header}"></header>
+    <main class="content container mt-6">
+        <div th:fragment="content">
+            <section id="faq">
+                <h2>Frequently Asked Questions</h2>
+                <div class="accordion" id="faqAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                What is Buy N Sell Thai?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                Buy N Sell Thai is an online marketplace where users can buy and sell products and services.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How do I create an account?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To create an account, click on the "Sign Up" button on the homepage and fill in the required information.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                How do I delete my account?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To delete your account, please fill out the form in the Account Deletion section below.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                How do I reset my password?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To reset your password, click on the "Forgot Password" link on the login page and follow the instructions.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How do I contact customer support?
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                You can contact customer support by clicking on the "Contact Us" link at the bottom of the page and filling out the contact form.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                How do I list an item for sale?
+                            </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To list an item for sale, click on the "Sell" button on the homepage and fill in the required information about your item.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                How do I edit my profile?
+                            </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To edit your profile, go to the "My Account" section and click on "Edit Profile".
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                How do I leave a review for a seller?
+                            </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To leave a review for a seller, go to the seller's profile and click on "Leave a Review".
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                How do I report a problem with a transaction?
+                            </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To report a problem with a transaction, go to the "Help" section and click on "Report a Problem".
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                How do I change my notification settings?
+                            </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                            <div class="accordion-body">
+                                To change your notification settings, go to the "Settings" section and click on "Notification Settings".
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section class="mt-5">
+            <h2>1. Introduction</h2>
+            <p>At <strong>Buy N Sell</strong> (BNS), we are committed to maintaining a safe, legal, and trustworthy marketplace for all users. To ensure compliance with Thai law and platform integrity, we provide clear account deletion procedures, both voluntary and company-initiated.</p>
+            <p>This policy outlines the steps for user-initiated account deletion and the circumstances under which <strong>Buy N Sell</strong> may permanently remove an account.</p>
+        </section>
+
+        <section>
+            <h2>2. How to Delete Your Account</h2>
+            <h3>A. In-App Account Deletion</h3>
+            <p>Users can delete their account directly within the Buy N Sell app by following these steps:</p>
+            <ul>
+                <li>Open the <strong>Buy N Sell</strong> app.</li>
+                <li>Go to <strong>Settings &gt; Account Settings</strong>.</li>
+                <li>Select <strong>Delete My Account</strong> and follow the instructions.</li>
+                <li>Confirm the request. Once confirmed, the account and associated data will be permanently deleted.</li>
+            </ul>
+            
+            <h3>B. Web-Based Account Deletion</h3>
+            <p>If you cannot access the app, you may request deletion through our web portal:</p>
+            <ul>
+                <li>Visit our <a href="#">Account Deletion Page</a>.</li>
+                <li>Log in with your registered credentials.</li>
+                <li>Submit a Deletion Request Form with your account details.</li>
+                <li>You will receive an email confirmation. Follow the instructions to verify your request.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>3. Account Deletion by the Company</h2>
+            <h3>A. Violations of Thai Law or Platform Policies</h3>
+            <p>Your account may be deleted, with or without prior warning, if you engage in any of the following prohibited activities:</p>
+            <ul>
+                <li><strong>Illegal Transactions</strong> - Selling or purchasing items prohibited by Thai law.</li>
+                <li><strong>Fraudulent Transactions</strong> - Engaging in deception, misrepresentation, or fraud against buyers or sellers.</li>
+                <li><strong>Legal Violations</strong> - Conducting transactions that violate Thai law or encourage illegal activities.</li>
+            </ul>
+            <p>The severity of the violation, as judged by the platform, will determine whether a warning is issued before deletion.</p>
+            
+            <h3>B. Other Grounds for Account Deletion</h3>
+            <ul>
+                <li><strong>Extended Inactivity</strong>: Accounts inactive for 12 months or longer may be deleted after prior notice.</li>
+                <li><strong>Multiple Policy Violations</strong>: Users repeatedly violating <strong>Buy N Sell's</strong> Terms of Service may be permanently removed.</li>
+                <li><strong>Suspicious or Fraudulent Behavior</strong>: Accounts flagged for money laundering, scams, or fraud may be deleted without notice.</li>
+            </ul>
+            
+            <h3>C. Permanent Ban from Buy N Sell</h3>
+            <p>Once an account is permanently deleted by <strong>Buy N Sell</strong>, it cannot be restored. Users banned due to violations will be permanently blocked from registering again.</p>
+        </section>
+
+        <section>
+            <h2>4. What Happens After Account Deletion?</h2>
+            <ul>
+                <li>Your profile, transaction history, and personal data will be permanently erased.</li>
+                <li>Any active listings, saved items, and messages will be deleted.</li>
+                <li>Some transactional data may be retained for legal and security purposes as per our Privacy Policy.</li>
+                <li>Deleted accounts cannot be recovered, and banned users cannot re-register.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>5. Contact Us</h2>
+            <p>For inquiries regarding account deletion, please contact our support team:</p>
+            <ul>
+                <li><strong>Email: </strong><a href="mailto:cs.buynsellth@gmail.com">cs.buynsellth@gmail.com</a></li>
+                <li><strong>Phone: </strong><a href="tel:0929308755">092-930-8755</a></li>
+                <li><strong>Live Chat: </strong><a href="https://lin.ee/G1UGHDB" target="_blank">Chat with us on LINE</a></li>
+            </ul>
+        </section>
+
+                    <!-- Account Deletion Section -->
+                    <section id="account-deletion" class="mt-5">
+                        <h2>Account Deletion</h2>
+                        <form action="/delete-account" method="post">
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="username" class="form-label">Username</label>
+                                    <input type="text" class="form-control" id="username" name="username" required>
+                                </div>
+                                <div class="col">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="reason" class="form-label">Reason for deletion</label>
+                                <textarea class="form-control" id="reason" name="reason" rows="3" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-danger">Delete Account</button>
+                        </form>
+                    </section>
+
+    </main>
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
