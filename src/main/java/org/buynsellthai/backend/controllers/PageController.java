@@ -43,6 +43,10 @@ public class PageController {
     public String support() {
         return "pages/support";
     }
+    @RequestMapping("download")
+    public String download() {
+        return "pages/download";
+    }
     @RequestMapping("etda-en")
     public String getEtdaEn() {
         return "pages/etda-certificate/etda-en";

@@ -10,9 +10,11 @@
 <body>
     <header th:replace="~{fragments/header :: header}"></header>
     <main class="content">
-        <div th:fragment="content">
-            <h1>Blog</h1>
-            <p>Dive into our latest insights, tips, and stories from the world of buying and selling. Whether you’re a seasoned seller or a first-time buyer, our blog is your go-to resource for maximizing your experience on our app. Join us as we explore trends, share user success stories, and provide helpful advice to enhance your marketplace journey. Happy reading!</p>
+        <div class="container">
+            <div th:fragment="content">
+                <h1>Blog</h1>
+                <p>Dive into our latest insights, tips, and stories from the world of buying and selling. Whether you’re a seasoned seller or a first-time buyer, our blog is your go-to resource for maximizing your experience on our app. Join us as we explore trends, share user success stories, and provide helpful advice to enhance your marketplace journey. Happy reading!</p>
+            </div>
         </div>
     </main>
     <footer th:replace="~{fragments/footer :: footer}"></footer>

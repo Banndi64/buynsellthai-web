@@ -10,17 +10,19 @@
 <body>
     <header th:replace="~{fragments/header :: header}"></header>
     <main class="content">
-        <div th:fragment="content">
-            <h1>Buy N Sell Membership</h1>
-            <p>Get Verified & Trade with Confidence!</p>
-            <p>Join Buy N Sell and enjoy a safer, more trusted marketplace with our 4-Point Verification System. Secure your account, gain trust, and unlock exclusive features with our Verified Badge.​</p>
-            <p>
-                <ul>
-                    <li>Secure your account with a verified phone number.</li>
-                    <li>Gain trust with a verified email address.</li>
-                    <li>Unlock exclusive features with a verified ID.</li>
-                    <li>Ensure authenticity with AI-powered face verification.</li>
-                </ul>
+        <div class="container">
+            <div th:fragment="content">
+                <h1>Buy N Sell Membership</h1>
+                <p>Get Verified & Trade with Confidence!</p>
+                <p>Join Buy N Sell and enjoy a safer, more trusted marketplace with our 4-Point Verification System. Secure your account, gain trust, and unlock exclusive features with our Verified Badge.​</p>
+                <p>
+                    <ul>
+                        <li>Secure your account with a verified phone number.</li>
+                        <li>Gain trust with a verified email address.</li>
+                        <li>Unlock exclusive features with a verified ID.</li>
+                        <li>Ensure authenticity with AI-powered face verification.</li>
+                    </ul>
+            </div>
         </div>
     </main>
     <footer th:replace="~{fragments/footer :: footer}"></footer>

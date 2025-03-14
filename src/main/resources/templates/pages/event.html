@@ -10,10 +10,13 @@
 <body>
     <header th:replace="~{fragments/header :: header}"></header>
     <main class="content">
-        <div th:fragment="content">
-            <h1>Event</h1>
-            <p>Grand Opening Promotion</p>
-            <p>Join us for the Grand Opening of Buy N Sell! Sign up now to receive a special reward. Explore amazing deals and discounts on your favorite products. Shop with ease and convenience on our user-friendly app. Don't miss out on the opportunity to save big while enjoying a seamless shopping experience.</p>
+        <div class="container">
+            <div th:fragment="content">
+                <h1>Event</h1>
+                <p>Grand Opening Promotion</p>
+                <p>Join us for the Grand Opening of Buy N Sell! Sign up now to receive a special reward. Explore amazing deals and discounts on your favorite products. Shop with ease and convenience on our user-friendly app. Don't miss out on the opportunity to save big while enjoying a seamless shopping experience.</p>
+                <img src="/images/event-banner.png" alt="Event Banner" class="img-fluid mb-4 center-banner">
+            </div>
         </div>
     </main>
     <footer th:replace="~{fragments/footer :: footer}"></footer>
