@@ -91,4 +91,12 @@ public class PageController {
     public String getPrivacyKr() {
         return "pages/privacy-policy/privacy-kr";
     }
+    @RequestMapping("top-spots/pexels-cosmetic")
+    public String getPexelsCosmetic() {
+        return "pages/top-spots-pages/pexels-cosmetic";
+    }
+    @RequestMapping("top-spots/kaorioxbuynsell")
+    public String getKaorioxBuynsell() {
+        return "pages/top-spots-pages/kaorioxbns";
+    }
 }
