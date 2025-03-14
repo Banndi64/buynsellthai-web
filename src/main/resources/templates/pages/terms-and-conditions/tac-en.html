@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Terms and Conditions - Buy N Sell Thai</title>
+    <style>
+        h2 {
+            font-size: 1rem; /* Reduced by half */
+            font-weight: bold; /* Make h2 bold */
+        }
+    </style>
+</head>
+
+<body>
+    <header th:replace="~{fragments/header :: header}"></header>
+    <main class="mt-5 content-wrapper">
+        <div class="container">
+            <div th:fragment="content">
+            <h1>Terms and Conditions</h1>
+            </div>
+            <section>
+                <h2>Effectiveness and Change of Terms of Use</h2>
+                <p>These terms and conditions become effective when the user agrees and registers as a user of the location information service in accordance with the procedures set by the company.</p>
+                <p>If the user clicks the “Agree” button, they are deemed to have read, understood, and agreed to these terms.</p>
+            </section>
+
+            <section>
+                <h2>Additional Rules</h2>
+                <p>Matters not specified in these Terms and Conditions shall be subject to the Act on the Protection and Use of Location Information, the Personal Information Protection Act, and other relevant laws and regulations.</p>
+            </section>
+
+            <section>
+                <h2>Contents of Service</h2>
+                <ul>
+                    <li>Providing or recommending information search results using location information.</li>
+                    <li>Location sharing, region-specific notifications, and route guidance.</li>
+                    <li>Location-based content classification and customized advertising.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Service Fees</h2>
+                <p>The location information service is free, but data communication fees may apply based on the user's mobile carrier policy.</p>
+            </section>
+
+            <section>
+                <h2>Change, Restriction, or Suspension of Service</h2>
+                <p>If the company cannot maintain location-based services due to policy changes or legal requirements, it may change, restrict, or suspend these services.</p>
+            </section>
+
+            <section>
+                <h2>Use or Provision of Personal Location Information</h2>
+                <p>The company will obtain user consent before using personal location information for services and will not share it with third parties without explicit consent.</p>
+            </section>
+
+            <section>
+                <h2>Purpose and Retention of Personal Location Information</h2>
+                <p>Personal location information is retained for providing location-based services and is deleted once the purpose is fulfilled unless required by law.</p>
+            </section>
+
+            <section>
+                <h2>Rights of Personal Location Information Subjects</h2>
+                <p>Users may withdraw consent, request suspension of use, and access records regarding their location information.</p>
+            </section>
+
+            <section>
+                <h2>Rights of Legal Representatives</h2>
+                <p>For users under 14, the company must obtain consent from both the user and their legal representative for the use of location information.</p>
+            </section>
+
+            <section>
+                <h2>Compensation for Damages</h2>
+                <p>Users may claim compensation for damages resulting from violations of location information laws, unless the company can prove the absence of intent or negligence.</p>
+            </section>
+
+            <section>
+                <h2>Dispute Mediation</h2>
+                <p>The company will consult with users regarding disputes and may seek mediation under relevant Thai laws.</p>
+            </section>
+
+            <section>
+                <h2>Company and Location Information Manager</h2>
+                <p><strong>Company Name:</strong> Buy N Sell CO., LTD.<br>
+                <strong>Address:</strong> 4.2-unit F15, Major Tower Rama 9, Hua Mak, Bang Kapi, Bangkok 10240<br>
+                <strong>Tel:</strong> +66 2 543 1129</p>
+                <p><strong>Location Information Manager:</strong> HOYEON KIM</p>
+            </section>
+        </div>
+    </main>
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+</body>
+
+</html>

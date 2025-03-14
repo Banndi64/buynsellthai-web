@@ -69,3 +69,7 @@ footer p {
     background-color: #f47721;
     color: #000000;
 }
+
+.content-wrapper {
+    padding-top: 50px; /* Adjust this value as needed */
+}

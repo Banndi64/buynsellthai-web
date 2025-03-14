@@ -1,0 +1,90 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Privacy Policy - Buy N Sell Thai</title>
+    <style>
+        h2 {
+            font-size: 1rem; /* Reduced by half */
+            font-weight: bold; /* Make h2 bold */
+        }
+    </style>
+</head>
+
+<body>
+    <header th:replace="~{fragments/header :: header}"></header>
+    <main class="mt-5 content-wrapper">
+        <div class="container">
+            <div th:fragment="content">
+            <h1>Privacy Policy</h1>
+            </div>
+            <section>
+                <h2>Legal Basis and Objectives of Data Collection</h2>
+                <p>The collection of data is governed by the Personal Data Protection Act B.E. 2562, ensuring transparency and security in handling user information.</p>
+            </section>
+    
+            <section>
+                <h2>Collected Data</h2>
+                <ul>
+                    <li><strong>GPS Data:</strong> Real-time location coordinates for personalized services.</li>
+                    <li><strong>Wi-Fi Access Information:</strong> SSID and signal strength for indoor positioning.</li>
+                    <li><strong>Cell Tower Data:</strong> Used for network-based positioning.</li>
+                    <li><strong>Bluetooth Beacon Data:</strong> Proximity-based services.</li>
+                    <li><strong>IP Address:</strong> For security and approximate location identification.</li>
+                    <li><strong>User-entered Data:</strong> Manually entered location data for service customization.</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h2>Data Collection Methods</h2>
+                <p>Data is collected through GPS tracking, Wi-Fi scanning, event-based triggers, and user input.</p>
+            </section>
+    
+            <section>
+                <h2>User Consent and Notifications</h2>
+                <p>Users provide explicit consent for data collection, with options to withdraw consent at any time.</p>
+            </section>
+    
+            <section>
+                <h2>Data Security and Protection</h2>
+                <ul>
+                    <li><strong>Encryption:</strong> Secures data during storage and transmission.</li>
+                    <li><strong>Access Control:</strong> Restricted access to authorized personnel only.</li>
+                    <li><strong>Regular Audits:</strong> Ensuring compliance with data protection laws.</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h2>Storage and Disposal of Location Data</h2>
+                <p>Data is retained only for the necessary duration and securely disposed of once the purpose is fulfilled.</p>
+            </section>
+    
+            <section>
+                <h2>User Rights</h2>
+                <ul>
+                    <li><strong>Right to Access:</strong> Users can request their data details.</li>
+                    <li><strong>Right to Rectification:</strong> Users can correct inaccurate data.</li>
+                    <li><strong>Right to Withdraw Consent:</strong> Users can revoke data collection consent.</li>
+                    <li><strong>Right to Erase Data:</strong> Users can request data deletion.</li>
+                </ul>
+            </section>
+    
+            <section>
+                <h2>Legal Compliance</h2>
+                <p>The policy complies with the Personal Data Protection Act B.E. 2562 and other applicable Thai laws.</p>
+            </section>
+    
+            <section>
+                <h2>Contact Information</h2>
+                <p><strong>Data Protection Officer:</strong> Kamolwan Wattananupong</p>
+                <p>Email: <a href="mailto:buynsellthai@gmail.com">buynsellthai@gmail.com</a>, <a href="mailto:kamolwan.w@buynsellthai.org">kamolwan.w@buynsellthai.org</a></p>
+            </section>
+        </div>
+    </main>
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+</body>
+
+</html>

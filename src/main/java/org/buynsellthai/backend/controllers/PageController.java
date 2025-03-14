@@ -51,4 +51,40 @@ public class PageController {
     public String getEtdaTn() {
         return "pages/etda-certificate/etda-th";
     }
+    @RequestMapping("tou-en")
+    public String getTouEn() {
+        return "pages/term-of-use/tou-en";
+    }
+    @RequestMapping("tou-th")
+    public String getTouTh() {
+        return "pages/term-of-use/tou-th";
+    }
+    @RequestMapping("tou-kr")
+    public String getTouKr() {
+        return "pages/term-of-use/tou-kr";
+    }
+    @RequestMapping("tac-en")
+    public String getTacEn() {
+        return "pages/terms-and-conditions/tac-en";
+    }
+    @RequestMapping("tac-th")
+    public String getTacTh() {
+        return "pages/terms-and-conditions/tac-th";
+    }
+    @RequestMapping("tac-kr")
+    public String getTacKr() {
+        return "pages/terms-and-conditions/tac-kr";
+    }
+    @RequestMapping("privacy-en")
+    public String getPrivacyEn() {
+        return "pages/privacy-policy/privacy-en";
+    }
+    @RequestMapping("privacy-th")
+    public String getPrivacyTh() {
+        return "pages/privacy-policy/privacy-th";
+    }
+    @RequestMapping("privacy-kr")
+    public String getPrivacyKr() {
+        return "pages/privacy-policy/privacy-kr";
+    }
 }
